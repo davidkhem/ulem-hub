@@ -77,20 +77,22 @@ nav .search-box input {
 }
 
 .navbar ul {
-    display: inline-flex;
+    display: flex;
     list-style: none;
     color: #fff;
+    font-size: 30px;
 }
 
 .navbar ul li {
-    width: 120px;
-    margin: 15px;
-    padding: 15px;
+    width: 150px;
+    margin: 0px;
+    padding: 10px;
 }
 
 .navbar ul li a {
     text-decoration: none;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .active, .navbar ul li:hover {
@@ -107,13 +109,13 @@ nav .search-box input {
     position: absolute;
     background: gray;
     margin-top: 15px;
-    margin-left: -15px;
+    margin-left: -10px;
     border-radius: 0px 0px 4px 4px;
 }
 
 .navbar ul li:hover .dropdown ul {
     display: block;
-    margin: 10px;
+    margin: 5px;
 }
 
 .navbar ul li:hover .dropdown ul li {
@@ -123,6 +125,7 @@ nav .search-box input {
     background: transparent;
     border-radius: 4px;
     text-align: left;
+    font-size: 14px;
 }
 
 .navbar ul li:hover .dropdown ul li:last-child {
@@ -134,25 +137,24 @@ a:hover {
     transition: 0.5s;
 }
 
-
-
-
-
-/*.content-sidebar {
+.grid {
     display: flex;
-    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-
-.grid   {
-    display: grid;
-    grid-template-rows: 50px;
-    grid-auto-columns: 2fr 1fr;
+#grid-photo {
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
 }
-*/
 
-
-
+.content {
+    display: flex;
+    width: 50%px;
+    height: 500px;
+}
 
 footer {
     position: fixed;
@@ -162,4 +164,5 @@ footer {
     text-align: center;
     background-color: red;
     color: white;
+    font-size: small;
 }
