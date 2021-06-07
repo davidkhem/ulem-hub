@@ -5,20 +5,81 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>ULEM Hub</title>
 </head>
-<body>
-    <div>
-        <header>
-            <img class="logo" src="images/logo.png" alt="logo">
-                <ul class="nav-links">
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Sports</a></li>
-                    <li><a href="#">Finance</a></li>
-                    <li><a href="#">About US</a></li>
+    <body>
+        <nav>
+            <div class="icon">ULEM<b style="color:red;">Hub</b></div>
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+                <button type="submit">&#x1F50D</button>
+            </div>
+                <ul>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Mail</a></li>
                 </ul>
-        </header>
-    </div>
-</body>
+        </nav>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Careers</a>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="#">Finance</a> </li>
+                            <li><a href="#">Software Engineer</a> </li>
+                            <li><a href="#">Telemarketing</a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">More...</a>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="news.html">News</a> </li>
+                            <li><a href="sports.html">Sports</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <div class="content-sidebar">
+            <div>
+                <img src="images/ulem-building.jpg" alt="building" width="50%" height="500px">
+            </div>
+            <div>
+                <p>Helping build stronger communities by providing local residents with education, job training and placement at no cost.</p>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Volunteer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, optio.</p>
+            </div>
+            <div class="card">
+                <h3>Career Fair</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, optio.</p>
+            </div>
+            <div class="card">
+                <h3>Donate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, optio.</p>
+            </div>
+        </div>
+
+
+
+
+
+    <footer>
+        <p>Copyright &copy; 2021</p>
+    </footer>
+
+    </body>
 </html>
