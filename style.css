@@ -9,7 +9,6 @@
     --secondary-color:#dc3545;
 }
 
-
 body {
     background: var(--primary-color);
     margin: 0;
@@ -88,7 +87,6 @@ button {
     font-size: 16px;
 }
 
-
 .navbar {
     width: 100%;
     background: palevioletred;
@@ -127,10 +125,6 @@ button {
     opacity: 0.5;
     font-size: 19px;
 }
-
-
-
-
 
 .container {
     width: 80%;
