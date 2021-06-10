@@ -31,8 +31,8 @@ Webpages was created with:
 * Balsamiq Wireframes
 
 ## Sources
-[yahoo!](www.yahoo.com)
-[Urban League](www.ulem.org)
+* [yahoo!](www.yahoo.com)
+* [Urban League](www.ulem.org)
 
 ## Team Members
 * David Khem (davidkhem)
