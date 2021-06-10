@@ -1,0 +1,198 @@
+:root {
+    --primary-color:white;
+    --secondary-color:red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--primary-color);
+    margin: 0;
+}
+
+.icon {
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+}
+
+.menu {
+    width: 100%;
+    background: var(--secondary-color);
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px
+
+
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu ul li a {
+    background: var(--secondary-color);
+    text-decoration: none;
+    width: 150px;
+    margin-left: 50px;
+    display: block;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.menu li a:hover {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 19px;
+}
+
+.search-form {
+    margin-top: 15px;
+    float: right;
+    margin-right: 50px;
+}
+
+input[type=text] {
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 500px;
+    border-radius: 5px 5px;
+}
+
+button {
+    float: center;
+    background: lightgray;
+    color: black;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 20px;
+}
+
+.lower-menu {
+    width: 100%;
+    background: var(--secondary-color);
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px
+
+
+}
+
+.lower-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 20px;
+}
+
+.lower-menu li {
+    float: left;
+}
+
+.lower-menu ul li a {
+    background: var(--secondary-color);
+    text-decoration: none;
+    width: 150px;
+    margin-left: 50px;
+    display: block;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.lower-menu li a:hover {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 20px;
+}
+ /*Container holding te main story image with text*/
+.container {
+    position: center;
+    text-align: center;
+    font-size: x-large;
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 40px;
+
+}
+
+.container p {
+    width: fit-content;
+    align-content: center;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.container section {
+    float: center;
+    width: 80%; 
+}
+ 
+ !* Bottom center text *!*/
+.bottom-center {*/
+    position: fixed;*/
+    bottom: 8px;*/
+    left: 20%;*/
+}*/
+!*center text *!*/
+.centered {*/
+    padding: ;*/
+    top: 50%*/
+    left: 50%;*/
+    transform: translate(-50%, -50%);*/
+}
+
+.container section p {
+    width: 80%;
+}
+
+aside {
+    float: right;
+    width: 32%;
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+aside h1, img {
+    padding-bottom: 0px;
+}
+
+bottom {
+    float: left;
+    padding-top: 50px;
+    display: inline-flex;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: small;
