@@ -9,7 +9,6 @@
     --secondary-color:#dc3545;
 }
 
-
 body {
     background: var(--primary-color);
     margin: 0;
@@ -129,10 +128,6 @@ button {
     font-size: 19px;
 }
 
-
-
-
-
 .container {
     width: 80%;
     margin: 0 auto;
@@ -151,6 +146,10 @@ section img {
     padding-bottom: 15px;
 }
 
+section h3 {
+    padding-bottom: 15px;
+}
+
 section p {
     width: 90%;
     padding-bottom: 15px;
@@ -163,6 +162,18 @@ aside {
 
 aside h1, img {
     padding-bottom: 25px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    padding-bottom: 30px;
+}
+
+aside ul a {
+    text-decoration: none;
 }
 
 bottom {
