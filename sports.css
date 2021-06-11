@@ -1,3 +1,4 @@
+
 :root {
     --primary-color:white;
     --secondary-color:red;
@@ -26,8 +27,6 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 0px
-
-
 }
 
 .menu ul {
@@ -95,8 +94,6 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 15px
-
-
 }
 
 .lower-menu ul {
@@ -128,7 +125,8 @@ button {
     opacity: 0.5;
     font-size: 20px;
 }
- /*Container holding te main story image with text*/
+
+ /*Container holding the main story image with text*/
 .container {
     position: center;
     text-align: center;
@@ -137,7 +135,6 @@ button {
     font-weight: bold;
     font-family: sans-serif;
     padding-top: 40px;
-
 }
 
 .container p {
@@ -151,19 +148,17 @@ button {
     float: center;
     width: 80%; 
 }
- 
- !* Bottom center text *!*/
-.bottom-center {*/
-    position: fixed;*/
-    bottom: 8px;*/
-    left: 20%;*/
-}*/
-!*center text *!*/
-.centered {*/
-    padding: ;*/
-    top: 50%*/
-    left: 50%;*/
-    transform: translate(-50%, -50%);*/
+
+.bottom-center {
+    position: fixed;
+    bottom: 8px;
+    left: 20%;
+}
+
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .container section p {
@@ -178,13 +173,17 @@ aside {
 }
 
 aside h1, img {
-    padding-bottom: 0px;
+    padding-bottom: 20px;
 }
 
-bottom {
-    float: left;
-    padding-top: 50px;
-    display: inline-flex;
+aside ul li {
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.bottom a {
+    padding-top: 20px;
+    margin-left: 80px;
 }
 
 footer {
